@@ -4,9 +4,10 @@ public class Circle extends Shape{
 
     private double radius;
 
+    //circle is defined as having one side, however they really don't have any
     public Circle() {
         super("Circle ◯", 1);
-    } //circle is defined as having one side, however they really don't have any
+    }
 
     public Circle(double radius) {
         this();
